@@ -94,4 +94,10 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<float> PointingCooldownSeconds =
         CVarDef.Create("pointing.cooldown_seconds", 0.5f, CVar.SERVERONLY);
+
+    /// <summary>
+    ///     Ganimed - helpful testing cvar for immersive spacing development
+    /// </summary>
+    public static readonly CVarDef<bool> ImmersiveSpacingTesting =
+        CVarDef.Create("misc.immersive_spacing_testing", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 }

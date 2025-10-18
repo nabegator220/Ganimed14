@@ -65,6 +65,7 @@ public sealed partial class MiscTab : Control
         Control.AddOptionCheckBox(CCVars.ChatFancyNameBackground, FancyNameBackgroundsCheckBox);
         Control.AddOptionCheckBox(CCVars.StaticStorageUI, StaticStorageUI);
         Control.AddOptionCheckBox(ADTCCVars.OfferModeIndicatorsPointShow, ShowOfferModeIndicatorsCheckBox); // ADT-Tweak
+        Control.AddOptionCheckBox(CCVars.ImmersiveSpacingTesting, ImmersiveSpacingTestingCheckBox); // Mono
         Control.Initialize();
     }
 }
